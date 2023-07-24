@@ -1,0 +1,29 @@
+#variety{
+    width: 100%;
+    background-color: rgb(250, 251, 235);
+    font-family: "微軟正黑體";
+}
+#variety dt{
+    font-size: 1.3em;
+    font-weight: bold;
+    color: rgb(45, 57, 97);
+    background-color: rgb(244, 239, 207);
+    border-bottom: 3px double rgb(223, 202, 152);
+    /* solid:實線、dashed:虛線、double:兩條實線、dotted:點線 */
+    background-image: url(../images/icon.png);
+    background-repeat: no-repeat;
+    padding: 0.5em 0 0.5em 36px;
+    background-position: 3px;
+    /* 調整icon位置 */
+    cursor: pointer;
+    /* 讓整排dt都有手的效果 */
+}
+#variety dd{
+    color: rgb(101, 101, 100);
+    font-size: 1.05em;
+    letter-spacing: 0.2em;
+    line-height: 2em;
+    padding:0.5em 2.3em;
+    text-align: justify;  
+     /* 左右對齊 */
+}
